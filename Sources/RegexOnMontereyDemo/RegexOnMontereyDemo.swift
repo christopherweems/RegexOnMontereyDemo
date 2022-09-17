@@ -25,12 +25,15 @@ struct RegexOnMontereyDemo {
                 continue
             }
             
-            print("Today is \(inputMatch.0).\n")
+            print("Today is \(inputMatch.0)")
             
             if inputMatch.1 != nil {
                 print("It's the weekend!")
                 
             }
+            
+            print("",terminator: "\n")
+            
         }
     }
     
